@@ -1,0 +1,18 @@
+{
+  "name": "rollup-study",
+  "version": "0.0.1",
+  "description": "rollup 练习项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rollup main.js --file bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lib-utils": "^0.1.0"
+  },
+  "devDependencies": {
+    "rollup": "^4.17.2"
+  }
+}
